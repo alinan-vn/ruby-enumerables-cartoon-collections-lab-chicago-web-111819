@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  roll = array.map {|v| "#{array.index(v)}. #{v}" }
+  roll = array.map {|v| "#{array.index(v) + 1}. #{v}" }
   call = roll.each {|v| v }
   
   puts call 
