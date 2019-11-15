@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  call = array.each {|v| v }
+  call = array.each {|v| "1. #{v}" }
   puts call 
 end
 
